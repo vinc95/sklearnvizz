@@ -4,7 +4,8 @@ from datetime import date
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plotly
-from plotly import graph_objs as graph_objs
+from plotly import graph_objs
+import graph_objs as graph_objs
 
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
